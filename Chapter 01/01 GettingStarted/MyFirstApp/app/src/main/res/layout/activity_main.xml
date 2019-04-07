@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        디바이스의 화면 크기를 레이아웃의 너비와 높이로 지정함.
+
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        화면 margin에 padding을 추가.
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Application" />
+
+    <!--
+        <TextView>
+        TextView를 출력 할 수 있도록 TextView GUI 컴포넌트를 포함시킴.
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        콘텐트를 출력할 수 있을만큼 GUI컴포넌트가 충분한 크기가 되도록 설정함.
+
+        android:text="Hello World!" />
+        Hello World 문자열을 출력함.
+    -->
+
+</LinearLayout>
