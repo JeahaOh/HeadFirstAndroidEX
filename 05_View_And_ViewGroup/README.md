@@ -84,3 +84,15 @@ gravity로 view의 contents위치 제어
 - center
 - fill_vertical, fill_horizontal
 - fill
+
+
+## FrameLayout
+frame layout은 뷰를 겹치게 배치할 수 있는 레이아웃임.
+
+### Laytout과 GUI Component
+모든 layout과 GUI component는 Android View 클래스의 하위 클래스임.
+
+### GUI Component는 View의 일종임
+### Layout은 ViewGroup이라는 View의 일종임
+
+
